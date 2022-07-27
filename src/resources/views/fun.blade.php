@@ -86,7 +86,6 @@
 </head>
 
 <body>
-
     <div class="bg"></div>
     <div class="bg bg2"></div>
     <div class="bg bg3"></div>
@@ -96,7 +95,7 @@
         </div>
         <hr />
         <h1>{{ $quote }}</h1>
-        <img src="{{ asset('vendor/fun/fun-images/'.$fileName) }}" alt="Fun">
+        <img src="{{ asset('storage/laravel-fun/images/'.$fileName) }}" alt="Fun">
     </div>
 </body>
 

@@ -24,10 +24,10 @@ class FunServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'fun');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'laravel-fun');
 
         $this->publishes([
-            __DIR__.'/../stubs/assets' => public_path('vendor/fun'),
+            __DIR__.'/../stubs/assets' => storage_path('app/public/laravel-fun'),
         ], 'fun-assets');
     }
 }

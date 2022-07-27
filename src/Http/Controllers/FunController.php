@@ -6,16 +6,16 @@ use App\Http\Controllers\Controller;
 
 class FunController extends Controller
 {
-    const ASSET_DIR = __DIR__ . '/../../../stubs/assets/fun-images';
+    const ASSET_DIR = __DIR__ . '/../../../stubs/assets/images';
 
     public function makeFun()
     {
         $fileName = $this->getRandomFile();
         $quote = $this->getQuote();
-        return view('fun::fun', compact('fileName', 'quote'));
+        return view('laravel-fun::fun', compact('fileName', 'quote'));
     }
 
-    function getRandomFile($dir = 'uploads')
+    function getRandomFile()
     {
         $files = glob(self::ASSET_DIR . '/*.*');
         $file = array_rand($files);
