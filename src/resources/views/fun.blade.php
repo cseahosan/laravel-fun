@@ -67,10 +67,8 @@
 
         img {
             /* opacity: .50; */
-            transition: opacity .5s ease-in-out;
             max-height: 400px;
             max-width: 400px;
-
         }
 
         img:hover {
