@@ -1,0 +1,27 @@
+{
+  "name": "ahosan/programmers-fun",
+  "type": "library",
+  "description": "This is just a fun",
+  "authors": [
+    {
+      "name": "Md. Ahosan Habib",
+      "email": "mdahosanhabib@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ahosan\\Fun\\": "src/"
+    }
+  },
+  "autoload-dev": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ahosan\\Fun\\FunServiceProvider"
+      ],
+      "aliases": {}
+    }
+  },
+  "version": "1.0.0",
+  "license": "MIT"
+}
