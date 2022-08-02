@@ -28,4 +28,4 @@ Thank you for considering contributing to the Laravel Fun!
 If you discover a security vulnerability within Laravel Fun, please send an e-mail to me via mdahosanhabib@outlook.com. All security vulnerabilities will be promptly addressed.
 
 ## License
-The Pondit JWT is open-source software licensed under the MIT license.
+The Laravel Fun is an open-source software licensed under the MIT license.
